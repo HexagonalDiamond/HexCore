@@ -1,5 +1,7 @@
-BeefCore
+HexCore
 ========
+
+Forked from [BeefCore](https://github.com/erogenousbeef/BeefCore)
 
 What is this?
 -------------
