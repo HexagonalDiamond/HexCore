@@ -1,13 +1,13 @@
-package erogenousbeef.core.multiblock.rectangular;
+package com.julianscode.hexcore.multiblock.rectangular;
 
+import com.julianscode.hexcore.multiblock.MultiblockControllerBase;
+import com.julianscode.hexcore.multiblock.MultiblockValidationException;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.World;
-import erogenousbeef.core.common.CoordTriplet;
-import erogenousbeef.core.multiblock.MultiblockControllerBase;
-import erogenousbeef.core.multiblock.MultiblockValidationException;
+import com.julianscode.hexcore.common.CoordTriplet;
 
 public abstract class RectangularMultiblockControllerBase extends
-		MultiblockControllerBase {
+        MultiblockControllerBase {
 
 	protected RectangularMultiblockControllerBase(World world) {
 		super(world);

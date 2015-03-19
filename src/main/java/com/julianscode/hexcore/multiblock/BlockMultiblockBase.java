@@ -1,4 +1,4 @@
-package erogenousbeef.core.multiblock;
+package com.julianscode.hexcore.multiblock;
 
 import net.minecraft.block.BlockContainer;
 import net.minecraft.block.material.Material;

@@ -1,4 +1,4 @@
-package erogenousbeef.core.multiblock;
+package com.julianscode.hexcore.multiblock;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -11,8 +11,8 @@ import net.minecraft.network.Packet;
 import net.minecraft.network.play.server.S35PacketUpdateTileEntity;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.chunk.IChunkProvider;
-import erogenousbeef.core.common.BeefCoreLog;
-import erogenousbeef.core.common.CoordTriplet;
+import com.julianscode.hexcore.common.BeefCoreLog;
+import com.julianscode.hexcore.common.CoordTriplet;
 
 /**
  * Base logic class for Multiblock-connected tile entities. Most multiblock machines
@@ -172,7 +172,7 @@ public abstract class MultiblockTileEntityBase extends IMultiblockPart {
 	 * to worry about sending the packet itself.
 	 * Decode this data in decodeDescriptionPacket.
 	 * @param packetData An NBT compound tag into which you should write your custom description data.
-	 * @see erogenousbeef.core.multiblock.MultiblockTileEntityBase#decodeDescriptionPacket(NBTTagCompound)
+	 * @see MultiblockTileEntityBase#decodeDescriptionPacket(NBTTagCompound)
 	 */
 	protected void encodeDescriptionPacket(NBTTagCompound packetData) {
 		if(this.isMultiblockSaveDelegate() && isConnected()) {
@@ -186,7 +186,7 @@ public abstract class MultiblockTileEntityBase extends IMultiblockPart {
 	 * Override this to easily read in data from a TileEntity's description packet.
 	 * Encoded in encodeDescriptionPacket.
 	 * @param packetData The NBT data from the tile entity's description packet.
-	 * @see erogenousbeef.core.multiblock.MultiblockTileEntityBase#encodeDescriptionPacket(NBTTagCompound)
+	 * @see MultiblockTileEntityBase#encodeDescriptionPacket(NBTTagCompound)
 	 */
 	protected void decodeDescriptionPacket(NBTTagCompound packetData) {
 		if(packetData.hasKey("multiblockData")) {

@@ -1,10 +1,10 @@
-package erogenousbeef.core.multiblock;
+package com.julianscode.hexcore.multiblock;
 
 import java.util.HashMap;
 import java.util.Set;
 
 import net.minecraft.world.World;
-import erogenousbeef.core.common.BeefCoreLog;
+import com.julianscode.hexcore.common.BeefCoreLog;
 
 /**
  * This is a very static singleton registry class which directs incoming events to sub-objects, which

@@ -1,4 +1,4 @@
-package erogenousbeef.core.multiblock;
+package com.julianscode.hexcore.multiblock;
 
 import net.minecraft.world.World;
 import net.minecraft.world.chunk.Chunk;

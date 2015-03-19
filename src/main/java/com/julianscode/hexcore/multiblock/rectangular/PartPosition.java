@@ -1,4 +1,4 @@
-package erogenousbeef.core.multiblock.rectangular;
+package com.julianscode.hexcore.multiblock.rectangular;
 
 public enum PartPosition {
 	Unknown,

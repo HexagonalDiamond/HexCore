@@ -1,13 +1,13 @@
-package erogenousbeef.core.multiblock.rectangular;
+package com.julianscode.hexcore.multiblock.rectangular;
 
+import com.julianscode.hexcore.multiblock.MultiblockControllerBase;
+import com.julianscode.hexcore.multiblock.MultiblockTileEntityBase;
 import net.minecraftforge.common.util.ForgeDirection;
-import erogenousbeef.core.common.CoordTriplet;
-import erogenousbeef.core.multiblock.MultiblockControllerBase;
-import erogenousbeef.core.multiblock.MultiblockTileEntityBase;
-import erogenousbeef.core.multiblock.MultiblockValidationException;
+import com.julianscode.hexcore.common.CoordTriplet;
+import com.julianscode.hexcore.multiblock.MultiblockValidationException;
 
 public abstract class RectangularMultiblockTileEntityBase extends
-		MultiblockTileEntityBase {
+        MultiblockTileEntityBase {
 
 	PartPosition position;
 	ForgeDirection outwards;

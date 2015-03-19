@@ -1,4 +1,4 @@
-package erogenousbeef.core.common;
+package com.julianscode.hexcore.common;
 
 import org.apache.logging.log4j.Level;
 

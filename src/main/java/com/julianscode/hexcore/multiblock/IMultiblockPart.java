@@ -1,10 +1,10 @@
-package erogenousbeef.core.multiblock;
+package com.julianscode.hexcore.multiblock;
 
 import java.util.Set;
 
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.tileentity.TileEntity;
-import erogenousbeef.core.common.CoordTriplet;
+import com.julianscode.hexcore.common.CoordTriplet;
 
 /**
  * Basic interface for a multiblock machine part. This is defined as an abstract class
@@ -12,7 +12,7 @@ import erogenousbeef.core.common.CoordTriplet;
  * Preferably, you should derive from MultiblockTileEntityBase,
  * which does all the hard work for you.
  * 
- * {@link erogenousbeef.core.multiblock.MultiblockTileEntityBase}
+ * {@link MultiblockTileEntityBase}
  */
 public abstract class IMultiblockPart extends TileEntity {
 	public static final int INVALID_DISTANCE = Integer.MAX_VALUE;

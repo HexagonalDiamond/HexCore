@@ -1,4 +1,4 @@
-package erogenousbeef.core.multiblock;
+package com.julianscode.hexcore.multiblock;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -11,8 +11,8 @@ import java.util.Set;
 import net.minecraft.world.ChunkCoordIntPair;
 import net.minecraft.world.World;
 import net.minecraft.world.chunk.IChunkProvider;
-import erogenousbeef.core.common.BeefCoreLog;
-import erogenousbeef.core.common.CoordTriplet;
+import com.julianscode.hexcore.common.BeefCoreLog;
+import com.julianscode.hexcore.common.CoordTriplet;
 
 /**
  * This class manages all the multiblock controllers that exist in a given world,

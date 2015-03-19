@@ -1,4 +1,4 @@
-package erogenousbeef.core.multiblock;
+package com.julianscode.hexcore.multiblock;
 
 import java.util.HashSet;
 import java.util.LinkedList;
@@ -9,8 +9,8 @@ import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.World;
 import net.minecraft.world.chunk.Chunk;
 import net.minecraft.world.chunk.IChunkProvider;
-import erogenousbeef.core.common.BeefCoreLog;
-import erogenousbeef.core.common.CoordTriplet;
+import com.julianscode.hexcore.common.BeefCoreLog;
+import com.julianscode.hexcore.common.CoordTriplet;
 
 /**
  * This class contains the base logic for "multiblock controllers". Conceptually, they are
@@ -431,7 +431,7 @@ public abstract class MultiblockControllerBase {
 	/**
 	 * Driver for the update loop. If the machine is assembled, runs
 	 * the game logic update method.
-	 * @see erogenousbeef.core.multiblock.MultiblockControllerBase#update() //TODO Fix this Javadoc
+	 * @see MultiblockControllerBase#update() //TODO Fix this Javadoc
 	 */
 	public final void updateMultiblockEntity() {
 		if(connectedParts.isEmpty()) {

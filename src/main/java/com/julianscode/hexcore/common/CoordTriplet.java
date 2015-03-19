@@ -1,4 +1,4 @@
-package erogenousbeef.core.common;
+package com.julianscode.hexcore.common;
 
 import net.minecraft.world.ChunkCoordIntPair;
 import net.minecraftforge.common.util.ForgeDirection;
