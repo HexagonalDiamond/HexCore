@@ -98,11 +98,11 @@ public abstract class MultiblockTileEntityBase extends IMultiblockPart {
 	public void writeToNBT(NBTTagCompound data) {
 		super.writeToNBT(data);
 
-		if(isMultiblockSaveDelegate() && isConnected()) {
-			NBTTagCompound multiblockData = new NBTTagCompound();
-			this.controller.writeToNBT(multiblockData);
-			data.setTag("multiblockData", multiblockData);
-		}
+//		if(isMultiblockSaveDelegate() && isConnected()) {
+//			NBTTagCompound multiblockData = new NBTTagCompound();
+//			this.controller.writeToNBT(multiblockData);
+//			data.setTag("multiblockData", multiblockData);
+//		}
 	}
 		
 	/**
